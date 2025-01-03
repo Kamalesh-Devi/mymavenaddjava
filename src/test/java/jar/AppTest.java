@@ -14,7 +14,11 @@ public class AppTest {
 
     @Test
     public static void testAddition() {
-        int result = AppCalc.add(5,8);
-        assertEquals(13, result, "5 + 8 should equal 13");
+        int result1 = AppCalc.add(5,8);
+        assertEquals(13, result1, "5 + 8 should equal 13");
+        int result2 = AppCalc.add(9,19);
+        assertEquals(28, result2, "9 + 19 should equal 28");
+        int result3 = AppCalc.add(-5,19);
+        assertEquals(14, result3, "-5 + 19 should equal 14");
     }
 }
