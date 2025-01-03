@@ -22,6 +22,7 @@ public class AppCalc {
             y = myObj.nextInt(); // Read user input
             sum = add(x,y); 
         }
+        //try - ensures that each resource is closed at the end of the statement.
     //sum = x + y;
     System.out.println("Sum is: " + sum); 
 
