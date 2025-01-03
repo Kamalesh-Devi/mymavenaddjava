@@ -21,9 +21,7 @@ public class AppCalc {
             System.out.println("Type another number:");
             y = myObj.nextInt(); // Read user input
             sum = add(x,y); 
-            myObj.close();
-        
-        //try - ensures that each resource is closed at the end of the statement.
+            myObj.close();      
     //sum = x + y;
     System.out.println("Sum is: " + sum); 
 
