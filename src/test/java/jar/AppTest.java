@@ -13,8 +13,7 @@ public class AppTest {
      */
 
     @Test
-    public static void testAdd() {
-        //AppCalc calc = new AppCalc();
+    public static void testAddition() {
         int result = AppCalc.add(5,8);
         assertEquals(13, result, "5 + 8 should equal 13");
     }
